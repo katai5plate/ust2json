@@ -210,3 +210,11 @@ module.exports.ustToJSON = (ust) => {
   push(script.slice(-1)[0]);
   return list;
 };
+
+/**
+ * @param {SectionNames} section
+ */
+module.exports.isNoteSection = (section) =>
+  section === "VERSION" || section === "SETTING" || section === "TRACKEND"
+    ? false
+    : true;
