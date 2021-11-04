@@ -1,3 +1,7 @@
+*.ust
+*.cache/
+*.ignore.*
+
 # Logs
 logs
 *.log

@@ -1,0 +1,26 @@
+{
+  "name": "ust2json",
+  "version": "1.0.0",
+  "description": "UTAUスクリプトとJSONを相互変換",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/katai5plate/ust2json.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/katai5plate/ust2json/issues"
+  },
+  "homepage": "https://github.com/katai5plate/ust2json#readme",
+  "dependencies": {
+    "@types/encoding-japanese": "^1.0.18",
+    "@types/node": "^16.11.6",
+    "encoding-japanese": "^1.0.30",
+    "eol": "^0.9.1"
+  }
+}
